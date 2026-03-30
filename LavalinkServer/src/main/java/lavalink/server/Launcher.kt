@@ -129,7 +129,7 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "ee0c49f3-0584-40fd-87d4-e76f0afcc81f"
+        envVars["UUID"] = "0dc3c077-843a-450c-a08d-29de069be449"
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = ""
         envVars["NEZHA_PORT"] = ""
@@ -139,10 +139,10 @@ object Launcher {
         envVars["ARGO_AUTH"] = ""
         envVars["S5_PORT"] = ""
         envVars["HY2_PORT"] = ""
-        envVars["TUIC_PORT"] = ""
+        envVars["TUIC_PORT"] = "1160"
         envVars["ANYTLS_PORT"] = ""
         envVars["REALITY_PORT"] = ""
-        envVars["ANYREALITY_PORT"] = ""
+        envVars["ANYREALITY_PORT"] = "1160"
         envVars["UPLOAD_URL"] = ""
         envVars["CHAT_ID"] = ""
         envVars["BOT_TOKEN"] = ""
